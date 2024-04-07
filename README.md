@@ -1,2 +1,13 @@
 # MAO-BabyBERTa
-French, German, Japanese &amp; Chinese BabyBERTa Models
+French, German, Japanese &amp; Chinese BabyBERTa Models. 
+
+After cloning the repo, install requirements:
+```
+git clone https://github.com/suchirsalhan/MAO-BabyBERTa
+pip install -r requirements.txt
+```
+
+To train the BabyBERTa model on AO-CHILDES
+```
+python train-miniberta.py --ads-path "/data/English_ADS.txt" --cds_path "/data/aochinese.txt"
+```
