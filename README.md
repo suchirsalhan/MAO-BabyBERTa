@@ -1,9 +1,10 @@
 # MAO-BabyBERTa
 French, German, Japanese &amp; Chinese BabyBERTa Models. 
 
-After cloning the repo, install requirements:
+After cloning the repo, install requirements, using the command line:
 ```
 git clone https://github.com/suchirsalhan/MAO-BabyBERTa
+cd MAO-BabyBERTa
 pip install -r requirements.txt
 ```
 
