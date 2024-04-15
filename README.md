@@ -10,5 +10,5 @@ pip install -r requirements.txt
 
 To train the BabyBERTa model on AO-CHILDES
 ```
-python train-miniberta.py --ads-path "/data/English_ADS.txt" --cds_path "/data/aochinese.txt"
+python train-miniberta.py --ads_path "/data/English_ADS.txt" --cds_path "/data/aochinese.txt" --freeze=True
 ```
